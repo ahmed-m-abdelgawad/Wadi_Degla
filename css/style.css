@@ -1,0 +1,371 @@
+ * {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+     box-sizing: border-box;
+ }
+
+
+ main {
+     width: 100%;
+ }
+
+ .all_s {
+     width: 80%;
+     margin: auto;
+ }
+
+
+ /* --------------------------------- */
+ /* ---------- Logo & Nav ---------- */
+ /* ------------------------------- */
+
+ nav {
+     background: linear-gradient(to bottom, black, gray);
+     min-height: 70px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     position: fixed;
+     top: 0;
+     z-index: 99999;
+     flex-wrap: wrap;
+     padding-right: 40px;
+ }
+
+ .logo {
+     height: 70px;
+     padding-left: 40px;
+ }
+
+ nav ul {
+     height: 70px;
+     width: 400px;
+     line-height: 70px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ nav ul li a {
+     color: white;
+ }
+
+
+
+
+ /* -------------------------------------------------------------------------------------------------------- */
+
+
+
+ /* --------------------------------- */
+ /* ---------- section_1 ----------- */
+ /* ------------------------------- */
+
+ .section_1 {
+     display: flex;
+     width: 100%;
+     height: 600px;
+     background-color: yellow;
+
+ }
+
+
+ .banner {
+     width: 100%;
+     margin: 0 auto;
+
+ }
+
+ .banner img {
+     max-width: 100%;
+     clip-path: circle(600px at 50% 0%);
+
+
+ }
+
+
+ /* --------------------------------- */
+ /* ----------- search ------------- */
+ /* ------------------------------- */
+
+
+ aside {
+     position: fixed;
+     top: 200px;
+     left: 0;
+
+ }
+
+
+ aside a {
+     position: relative;
+     line-height: 30px;
+     text-align: center;
+     left: -160px;
+     transition: all 1s;
+     -webkit-transition: all 1s;
+     -moz-transition: all 1s;
+     -ms-transition: all 1s;
+     -o-transition: all 1s;
+ }
+
+
+ aside a:hover {
+     left: 0;
+ }
+
+
+
+ .search {
+     display: flex;
+ }
+
+
+ .search img {
+     height: 30px;
+     clip-path: circle();
+     background-color: black;
+     border: 2px solid black;
+ }
+
+
+ .search span {
+     border: 1px solid black;
+     background-color: white;
+     padding: 0px 50px;
+ }
+
+
+ /* -------------------------------------------------------------------------------------------------------- */
+
+
+ /* --------------------------------- */
+ /* ---------- section_2 ----------- */
+ /* ------------------------------- */
+
+
+ .section_2 {
+     display: flex;
+     justify-content: space-around;
+     height: 150px;
+     width: 100%;
+     position: relative;
+     top: -50px;
+     flex-wrap: wrap;
+     overflow: hidden;
+
+
+ }
+
+ .section_2 div {
+     height: 150px;
+     width: 200px;
+     display: flex;
+     align-items: center;
+     border: 3px solid yellow;
+     background: white;
+ }
+
+
+ .section_2 div img {
+     width: 100%;
+ }
+
+
+
+
+ /* -------------------------------------------------------------------------------------------------------- */
+
+
+ /* --------------------------------- */
+ /* ---------- section_3 ----------- */
+ /* ------------------------------- */
+
+
+ .section_3 {
+     width: 100%;
+     text-align: center;
+ }
+
+ hr {
+     background-color: purple;
+     width: 50%;
+     height: 3px;
+     margin: auto;
+ }
+
+
+ /* -------------------------------------------------------------------------------------------------------- */
+
+
+ /* --------------------------------- */
+ /* ---------- section_4 ----------- */
+ /* ------------------------------- */
+
+ .section_4 {
+     height: 300px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .section_4 div p {
+     width: 60%;
+     height: 100%;
+     padding: 20px;
+     text-align: justify;
+
+ }
+
+ .section_4 img {
+     width: 60%;
+
+
+ }
+
+
+ /* -------------------------------------------------------------------------------------------------------- */
+
+
+ /* --------------------------------- */
+ /* ---------- section_6 ----------- */
+ /* ------------------------------- */
+
+
+ .section_6 {
+     width: 100%;
+     overflow: hidden;
+     padding: 20px;
+ }
+
+ table {
+     width: 100%;
+
+     border-collapse: collapse;
+     text-align: center;
+
+ }
+
+ td,
+ th {
+     padding: 5px;
+ }
+
+ tbody tr:nth-of-type(even) {
+     background: rgba(255, 255, 0, 0.432);
+ }
+
+
+
+
+ /* -------------------------------------------------------------------------------------------------------- */
+
+
+
+ /* --------------------------------- */
+ /* ---------- section_7 ----------- */
+ /* ------------------------------- */
+
+
+
+ .section_7 {
+     height: 350px;
+     width: 100%;
+     display: flex;
+     background: white;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     text-align: justify;
+
+
+
+
+
+ }
+
+
+ .section_7 div {
+     width: 300px;
+     height: 90%;
+     border: 1px solid black;
+     overflow: hidden;
+     box-sizing: border-box;
+     padding: 5px;
+     align-self: center;
+
+
+ }
+
+
+
+ .section_7 div img {
+     width: 100%;
+     padding: 5px;
+ }
+
+ .section_7 div h1 {
+     font-size: 16px;
+     color: red;
+     padding: 5px;
+
+ }
+
+
+ /* -------------------------------------------------------------------------------------------------------- */
+
+
+
+ /* --------------------------------- */
+ /* ---------- section_8 ----------- */
+ /* ------------------------------- */
+
+ .section_8 {
+     height: 300px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     overflow: hidden;
+ }
+
+ .section_8 img {
+     width: 45%;
+     height: 80%;
+ }
+
+ .section_8 video {
+     width: 45%;
+     height: 80%;
+ }
+
+
+ /* -------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+ /* --------------------------------- */
+ /* ------------ footer ------------ */
+ /* ------------------------------- */
+
+
+
+
+
+
+ footer {
+     width: 100%;
+     color: white;
+     text-align: center;
+     background: linear-gradient(to bottom, black, gray);
+ }
+
+
+
+ /* ---------------------------------- */
